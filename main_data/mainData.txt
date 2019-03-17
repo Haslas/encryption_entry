@@ -1,51 +1,51 @@
 f
-t0
-prPress enter for Atbash program...
+text0
+promptPress enter for Atbash program...
 sim0
-t1
-prPress enter for picture of Scytale...
-i1
+text1
+promptPress enter for picture of Scytale...
+image1
 ln
-prCoincidentally a random length of fabric has been found which requires immediate decryption. Press enter to start...
+promptCoincidentally a random length of fabric has been found which requires immediate decryption. Press enter to start...
 sim1
-t2
-prPress enter for picture of invisible ink...
-i2
-prPress enter for Stenography Challenge...
+text2
+promptPress enter for picture of invisible ink...
+image2
+promptPress enter for Stenography Challenge...
 sim2
-t3
-ps
-ut3
+text3
+pause
+othertext3
 prPress enter for picture of Aardvark
-i3
-prPress enter for Caesar Cipher Challenge
+image3
+promptPress enter for Caesar Cipher Challenge
 sim3
-t4
-prPress enter to open Vigenere Square...
+text4
+promptPress enter to open Vigenere Square...
 simV
-ut4
-prPress enter to open Vigenere Challenge 1
+othertext4
+promptPress enter to open Vigenere Challenge 1
 sim4
-t5
-ps
-ut5a
-prPress enter to open Vigenere Square...
+text5
+pause
+othertext5a
+promptPress enter to open Vigenere Square...
 simV
-prPress enter for a picture of Charles Babbage...
-i5
-ps
-ut5b
-prNow that you understand the cipher, its time to put your skills to the test. Someone's encrypted some important files. Press enter to launch the next test...
+promptPress enter for a picture of Charles Babbage...
+image5
+pause
+othertext5b
+promptNow that you understand the cipher, its time to put your skills to the test. Someone's encrypted some important files. Press enter to launch the next test...
 sim5
-t6
-prPop Quiz. Press enter to launch...
+text6
+promptPop Quiz. Press enter to launch...
 sim6
-t7
-prPress enter for a picture of Arthur Scherbius...
-i7a
-prPress enter to use a web-based enigma simulator...
+text7
+promptPress enter for a picture of Arthur Scherbius...
+image7a
+promptPress enter to use a web-based enigma simulator...
 sim7
-t8
-prPress enter for picture of Alan Turing...
-i7b
-ut8
+text8
+promptPress enter for picture of Alan Turing...
+image7b
+othertext8
