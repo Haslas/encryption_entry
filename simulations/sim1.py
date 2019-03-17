@@ -50,7 +50,7 @@ def main():
     print("\n\nThis strip of fabric has been found:")
     print("\n"+unwound)
     print("\nWe have three possible scytales it could fit. When its put on the correct scytale, it will show the password.")
-    print("Once you've found the message, input the revealed password (with no spaces) into the other console")
+    print("Once you've found the message, input the revealed password into the other console")
     print("Use the commands: showUnwound() wrapAroundScytale1() wrapAroundScytale2() wrapAroundScytale3() exit()")
     running = True
     while(running):
