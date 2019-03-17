@@ -14,7 +14,7 @@ def main():
                     showTextDoc(int(command[4:]))    
                 elif command[:5] == "image":
                     showImage(command[5:])
-                elif command[:5] == "prompt":
+                elif command[:6] == "prompt":
                     prompt(command[2:])
                 elif command[:3] == "sim":
                     lastPass = startSim(command[3:])
