@@ -1,7 +1,7 @@
 unwound = """
 _______________________
 
-t k a r p s u l e c e e
+t k a r p s u l e c e !
 _______________________
 """
 
@@ -25,7 +25,7 @@ scytale3="""
       | | | | |  |
       |t|r|u|c|  |
    ---|k|p|l|e|--
-   |  |a|s|e|e|
+   |  |a|s|e|!|
    |  | | | | |
 (this one seems to fit well)
 """
@@ -49,7 +49,7 @@ def main():
     print(title)
     print("\n\nThis strip of fabric has been found:")
     print("\n"+unwound)
-    print("\nWe have three possible scytales it could fit. When its put on the correct scytale, it will show the password.")
+    print("\nWe have three possible scytales it could fit. When its put on the correct scytale, it will show the password, and be readable from left to right.")
     print("Once you've found the message, input the revealed password into the other console")
     print("Use the commands: showUnwound() wrapAroundScytale1() wrapAroundScytale2() wrapAroundScytale3() exit()")
     running = True
