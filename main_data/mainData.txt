@@ -16,7 +16,7 @@ sim2
 text3
 pause
 othertext3
-prPress enter for picture of Aardvark
+promptPress enter for picture of Aardvark
 image3
 promptPress enter for Caesar Cipher Challenge
 sim3
