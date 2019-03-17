@@ -12,7 +12,7 @@ def main():
     print(title)
 
     print("\n\nAs said, stenography can be used in the modern day too. And it is. This just in:")
-    print("All The Tailors Are Counting Kitchen Nives On Wednesdays")
+    print("\nAll The Tailors Are Counting Kitchen Nives On Wednesdays")
     print("\nCould that mean anything? Answer in the main console.")
     print("\nCommands: exit()")
     
