@@ -10,22 +10,22 @@ def main():
         for command in commands:
             try:
             #why doesn't python have switch/case??
-                if command[0] == "t":
-                    showTextDoc(int(command[1:]))    
-                elif command[0] == "i":
-                    showImage(command[1:])
-                elif command[:2] == "pr":
+                if command[:4] == "text":
+                    showTextDoc(int(command[4:]))    
+                elif command[:5] == "image":
+                    showImage(command[5:])
+                elif command[:2] == "prompt":
                     prompt(command[2:])
                 elif command[:3] == "sim":
                     lastPass = startSim(command[3:])
-                elif command == "ps":
+                elif command[:5] == "pause":
                     pause()
-                elif command == "ln":
+                elif command[:9] == "othertext":
+                    showUnencryptedText(command[9:])
+                elif command[:2] == "ln":
                     newLine()
                 elif command == "f":
                     showFirstTextDoc()
-                elif command[:2] == "ut":
-                    showUnencryptedText(command[2:])
             except:
                 print("Oh no an error")
         end()    
