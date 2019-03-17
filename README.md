@@ -1,7 +1,7 @@
 # encryption_entry
 My entry for a competition
 
-To run this: download repository, unzip, and run main.py
+To run this: download repository, unzip, run main.py,  and scroll up a bit. Occasionally python will start you in the middle of the screen, and you'll miss my awesome ASCII titles.
 Preferably run on a Windows10 computer with a 1920x1080 or higher resoluotion monitor.
 This is not because the graphics are fancy - just because their size is designed for a full sized monitor :-)
 
