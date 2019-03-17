@@ -1,4 +1,4 @@
-The earliest use of cryptography known to current historians was the use of hieroglyphs that are not in the common hieroglyphic alphabet in approximately 1900BC.
+Great Start! The earliest use of cryptography known to current historians was the use of hieroglyphs that are not in the common hieroglyphic alphabet in approximately 1900BC.
 Archaeologists have been unsure of whether this was an attempt at secrecy, or simply amusement for locals, but the first use of definite encryption for secrecy was the Hebrew Atbash substitution cipher.
 This was a cipher from approximately 600BC, and could be used to hide a message from anyone who did not understand the encryption. 
 This is because it uses the same process to encrypt a “plaintext” message every time the cipher is used. Therefore, whenever an encrypted “ciphertext” is found, the exact same process can be used to reverse the cipher.
