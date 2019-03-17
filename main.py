@@ -15,7 +15,7 @@ def main():
                 elif command[:5] == "image":
                     showImage(command[5:])
                 elif command[:6] == "prompt":
-                    prompt(command[2:])
+                    prompt(command[6:])
                 elif command[:3] == "sim":
                     lastPass = startSim(command[3:])
                 elif command[:5] == "pause":
