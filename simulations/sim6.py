@@ -28,7 +28,7 @@ questions=["Who wanted steam to do their maths for them?",
 def main():
     print(title)
     print("\n\nAll of the answers have been stated in this program.")
-    print("But you'll probably probably still end up googling them.")
+    print("But you'll probably still end up googling them.")
     input("Press enter to start quiz...")
     print("\n")
     answers=quizLoop()
