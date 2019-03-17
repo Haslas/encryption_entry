@@ -1,0 +1,11 @@
+Great spot! Stenography can be incredibly helpful, but has serious flaws. In order to communicate, both parties must know what to look for.
+Furthermore, it depends heavily on the assumption that no one else will be vigilant enough to find the data that’s being hidden. Luckily, Caesar’s cipher was an answer to one of these problems.
+
+Caesar’s cipher is a shift cipher. Imagine writing the alphabet down twice, one on top of the other. You would then shift the bottom alphabet along a certain number of places, until the letters match up in a different order.
+You would then encrypt your plaintext by replacing every letter with its new equivalent in the second alphabet.
+It’s very similar to the atbash cipher, but the Caesar Cipher allows different methods of encryption, due to the moveable alphabet.
+If you choose the number of places to shift the second alphabet and share this with the message’s recipient, you’ll both be able to encrypt and decrypt securely. This shift is known as the cryptographic key.
+For example if you chose a shift of 2 rotated right, A would become Y, B would become Z, C would become A, and so forth as outlined below:
+
+Plain:	 	A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Cipher: 	Y Z A B C D E F G H I J K L M N O P Q R S T U V W X

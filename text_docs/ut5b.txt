@@ -1,0 +1,24 @@
+For a more in-depth example, say we knew the following cyphertext had a key of length 2:
+
+ooopnurgowehudyopsvgqwfdhhrroigopqbfqwaugcgvrcktbfqrvqgwbbnflcsbnhvcaoypvctfndumusjofabggzvyrzlpbfaogtbiehltbieqecfplfbkjoykbfgvecnrycarbbrbtznbqoozhscznehsbbgvrxhbphvcacsznfpczggfrsgoarjoykbfgvecnrpczarabfnhrggvrsisah
+
+We know that every other character will share the same encyrption character, so we can split it into two groups we know will use the same substitution alphabet:
+
+1: oonroeuypvqfhrogpbqaggrkbqvgbnlsnvayvtnuujfbgvrlbagbelbeeflbjybgenyabrtnqohcnhbgrhpvasnpzgrgajybgenpzrbnrgria
+
+2: opugwhdosgwdhrioqfwucvctfrqwbfcbhcopcfdmsoagzyzpfotihtiqcpfkokfvcrcrbbzbozszesbvxbhcczfcgfsorokfvcrcaafhgvssh
+
+We can then perform frequency analysis on each independently.
+
+The first group shows a high frequency of B's. In the English alphabet, E has the highest frequency. This suggests every E in the plaintext was mapped to a B. 
+If this is true, B will be the character in the Vigenere Square at the intersect between E and the key character.If the plaintext E was mapped to B, according to the Vigenere square the key character must be N.
+The second group showed that F was one of the most frequent characters. T is the second most frequent character in the English language. If the plaintext T was mapped to F, F will be in the centre with T at the side.
+The letter that would intersect with these other two characters if "O". This is basically encrypting in reverse. If we have any two points on the square, we can find the third.
+Putting these two encryption characters together, we get what we believe is the full key: “NO”. To check whether or not this is correct, we can attempt to decrypt the full text with it.
+This gives us the Wikipedia passage:
+
+"Babbages birthplace is disputed, but according to the Oxford Dictionary of National Biography he was most likely born at fourty-four Crosby Row Walworth Road London England A blue plaque on the junction of Larcom Street and 
+Walworth Road commemorates the event."
+The word “fourty” is in fact incorrectly spelt due to my own error when encrypting this. Please ignore it.
+
+As the passage translated into perfect English, it's fair to assume that we decrypted it correctly.

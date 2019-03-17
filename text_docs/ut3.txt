@@ -1,0 +1,9 @@
+So how do you counter this? One big problem with almost all alphabets is that some letters will appear more frequently then others.
+So, if you have a reasonably large chunk of text, we can calculate which characters appear more often than others.
+We know that the order of frequency in the English language is e t a o I n s h r d l c u m w f g y p b v k j x q z.
+Therefore, if a letter in the ciphertext is used significantly more than the rest, it is reasonable to assume this is an E or T.
+If there is one that is hardly used at all, it is fair to assume that this is a J, X, Q or Z.
+With a large enough ciphertext, we can calculate the frequency of each letter in the ciphertext and compare it to the frequency in normal language.
+We can then try subbing in some letters, and trying to fill in the blanks from our human intelligence. For instance, guessing that the word aa__a__ will be aardvark.
+This is known as Frequency Analysis, and is one of many techniques to crack this sort of message.
+Below: picture of an aardvark.

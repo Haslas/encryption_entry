@@ -1,0 +1,15 @@
+The Vigenere cipher was vulnerable due to the key being small enough to split the message into multiple groups of monoalphabetically ciphered messages. However, increasing the length of the key decreases the size of each group.
+If a message of 2000 characters is encrypted with a key of five character, that gives five groups of 400 characters. Increasing the key size to 200 gives 200 groups of ten characters.
+Using a key that is as long as the message gives 2000 groups of one character. Frequency analysis relies on having large groups that are comparable to plain English.
+As such, it is difficult to perform frequency analysis on small groups, and impossible to analyse the frequency of a group of one. 
+This principle was the basis of the one-time-pad. A sheet of paper containing a huge number of characters, which could be used as an encryption key equal or very close to the length of a message.
+Multiple pads of identical sheets could be generated, and distributed between telegraph or radio operators. Each time a message is sent, a new sheet of paper with a new key is used.
+When a key equal in length to the message I used, it is mathematically impossible for the message to be decrypted. Say I had ciphertext of length one, and a key of length one.
+Looking at the Vigenere cipher, if I take any character as the ciphertext, there will be one key character that will produce any plaintext character I want.
+Therefore, if I intercept the one-character ciphertext, but do not know the plaintext or key, by cycling through all 26 possible keys, I can make the plaintext any of its 26 possible characters.
+In a ciphertext of arbitrary length, with a key of equal length, there is a one-to-one relationship between each cipher character and key character. I don't know key character or plaintext character, only the cipher character.
+Therefore, by the principle outlined above, the plaintext could mathematically be literally anything. The only way to know what it is it by owning the key.
+
+So why was this not the end of encryption?  This is to do with a problem that is prevalent in every form of cryptography so far explained: key distribution.
+In order for the cipher to be useful, both the sender and the receiver must be able to read it. Therefore, both need the encryption key. If a one-time-pad is used, it must be brought to every single radio operator trying to communicate. It must also not fall into enemy hands. If even one book were to be captured, the entire system would be corrupt, and must be reset.
+This made it incredibly impractical to actualy implement on a wide scale, and is the reason we don’t still use this technique.

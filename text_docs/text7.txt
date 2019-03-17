@@ -1,0 +1,7 @@
+Rather than using the One-Time-Pad, encryption was mechanised. The most famous example of this being Arthur Scherbius’ Enigma Machine: a mechanical implementation of a polyalphabetic substitution cipher.
+To operate the machine, an operator would input a message to the enigma through the keyboard on its front. The keyboard had lights in each key, so that the encrypted character would then be illuminated.
+The enigma machine calculated the the substitution to use through a variety of methods of nefarious methods.
+It contained three or four rotors (depending on the model) which re-routed electric pulses to and from keyboard and light, and rotated after each key-press. This meant that every time a key was pressed, the character it illuminated changed.
+While there were only ever three or four rotors in the machine at one time, different models of rotor could be exchanged for added confusion. These would have different wire paths running through them, to create more variety.
+The machine also had a plugboard, which allowed the user to directly swap electrical impulses from certain characters to others.
+The sum of these parts was essentially the machine's equivalent of an encryption key.

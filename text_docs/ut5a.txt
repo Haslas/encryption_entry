@@ -1,0 +1,23 @@
+Enter Charles Babbage. In the 19th century Charles Babbage made many important discoveries, but two of ideas changed the course of encryption forever.
+After reviewing important public statistics and finding many errors, Babbage angrily exclaiming “I wish these calculations could be done with steam!” and designed Difference Engines 1 then 2, the first ever programmable computers.
+Both of these failed, the first due to bad implementation and the second due to a lack of funding. 
+Nonetheless, his ideas were still incredibly important to all society, let alone encryption.
+His other big impact was that he was the first person to break the Vigenere cipher, after being challenged in a popular magazine.
+
+
+The Vigenere cipher has multiple alphabets. However, assuming the encryption key used is smaller than the text being encrypted, every Xth character where X is the length of the key uses the same substitution alphabet.
+This can be understood by looking at the Vigenere square (press enter). To substitute a plaintext character, you choose a substitution alphabet by using the row equal to the equivalent letter in the key.
+You then substitute the plaintext character with its substitutional equivalent.
+Say the encryption key was five characters long, then every 5 characters we would repeat the encryption key, therefore using the same encryption character, and therefore using the same substitution alphabet.
+
+Plain:    	T H E Y A R E C O M I N G
+Key:       	H E D G E H E D G E H E D  
+Cipher: 	A L H E E Y I F U Q P R J
+
+In the above, every fifth character uses the same encryption character, therefore the same substitution alphabet. EG: T, R and I will all be encrypted using the character H, and therefore substituted into the same alphabet.
+This means we know that the ciphertext characters A, Y, and P use the same substitution alphabet. Similarly, L, I and R. Similarly, H, F, and J.
+As we discussed with the Caesar cipher, we can break a monoalphabetic cipher (a cipher with only one substitution alphabet) by using frequency analysis.
+This means that by decomposing the Vigenere cipher into different groups, we can perform frequency analysis on each group to calculate the substitution alphabet.
+As each substitution alphabet is associated with a character in the key, we can use this to find the key. 
+A frequency analysis would not work on the example I have provided because groups of three letters are not large enough to give a good approximation of the real alphabet, but longer messages would be completely abusable. 
+

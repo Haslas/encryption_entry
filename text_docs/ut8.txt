@@ -1,0 +1,16 @@
+There are many notable events spanning the gap between the second world war and present day that are definitely worth researching, but many of them are incredibly complex and would not fit the level of details of this program.
+However, having hinted at it, I will discuss the invention of Public Key Encryption.
+Asymmetric cryptography, or public key cryptography, is a form of cryptography where the encryption and decryption keys are different, and where the decryption key cannot be generated from the encryption key.
+This means that data can be encrypted with the encryption key by anyone, but only decrypted by a person holding the decryption key.
+Therefore, if the decryption key (often called the private key) is held securely, the encryption key (often called public key) can be distributed freely.
+This allows anyone who needs to, to securely send data, but only allows the holder of the private key to decrypt it. This is revolutionary, as it means no careful key distribution is needed at all.
+The concept was first implemented by Ron Rivest, Adi Shamir, and Leonard Adleman, who created the software RSA in 1973.
+
+While current encryption is believed to be essentially unbreakable, it is possible that the dawn of quantum computing will prove this false.
+Quantum cryptology is a fascinating topic that is completely beyong my ability to properly explain, but that I nonetheless throughly enjoyed reading. I would definitely suggest this as a reading topic for anyone interested in crytography.
+Without a significant shift in human understanding of the laws of physics, quantum computing will spell the end for the battle between encryption and decryption, by presenting a mathematically perfect way of communicating data.
+It has already been implemented on a small scale in multiple places globally.
+
+Cryptography is constantly changing, especially now that it’s so pervasive to almost every human’s daily life.
+Encryption was once just an art used by generals and monarchs, but now is vital to almost everyone’s security and livelihood. 
+This is why I think it’s important that its journey is told, and why I decided to take on this project. I hope you enjoyed reading it as much as I enjoyed creating it.

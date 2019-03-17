@@ -1,0 +1,10 @@
+Great Start! This program will run best on windows 10 at 1920x1080.
+The program is event-driven, so you can leave it alone and nothing will happen, but there is no saving feature, so if you close it you will lose all progress.
+The console you're currently seeing will display most text, but it will call other programs that you will need to complete in order to progress.
+The main program will stop every time a pop-up program starts, and will demand a password. This will be found in the pop-up program, normally after some form of challenge.
+If you accidentally close one of these pop-up programs before finding the password, you can manually restart the relevant program by entering the "simulations" folder, found in the same directory that the current program is installed, and running the relevant programming. This will basically be trial and error.
+If at any point you get completely stuck, pressing ctrl+c will skip the current stage. Doing this in pop-ups may break them.
+You may find some of the challenges easier with a pen and paper.
+Most importantly, have fun!
+Passwords are neither case-sensitive or punctuation (including spaces) sensitive.
+As practice: to start the program, enter the password: example_password

@@ -1,0 +1,6 @@
+Correct! Atbash was a useful cipher, but it uses the same process to encrypt a “plaintext” message every time the cipher is used.
+If everyone encrypts messages using the same process, everyone will decrypt messages using the same process. This means the decrypted information was available to anyone with a basic knowledge of the cipher.
+As the cipher spread, it soon became popular and therefore useless.
+But, this problem was soon fixed using the scytale. The scytale was a device used by ancient Greeks in around 475BC for secure communication. A scytale is a pole of a fixed diameter. 
+The sender would wind a thin piece of fabric around the pole multiple times, forming a surface to write one. Once un-wound it would be difficult to read unless the recipient had an identical scytale.
+Image below: "You are in danger" encrypted on a scytale

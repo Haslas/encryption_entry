@@ -1,0 +1,17 @@
+The fact that the Vigenere cipher uses multiple alphabets made it impregnable to medieval frequency analysis, and therefore incredibly difficult to break.
+Furthermore, while the Caesar cipher only had 26 possible variation (if you shift the alphabet 26 times, it comes back round with A being encrypted to A) the Vigenere cipher had many more.
+To be exact, 26^n where n=length of message. This grows incredibly fast. 
+Regardless of the Vigenere Cipher’s incredibly strength it was not popularised for approximately two centuries after its creation, due to its complexity. Instead, homophonic substitution ciphers were used.
+These were ciphers where multiple characters would represent one English character, proportional to its frequency.
+For instance, the letter Z would be represented by very few characters, while the letter A would have many different possibilities.
+These would not necessarily be Latin characters, they could be foreign or even just numerical representations.
+Each time a character needed to be written, any one of the substitute characters would be chosen at random.
+By making the number of possible substitute characters proportional to the plaintext character’s frequency, all characters in the ciphertext had equal frequency.
+
+
+This made homophonic ciphers immune to basic frequency analysis, but soon enough techniques were developed to break them.
+A common method is comparing the frequency of characters appearing next to each other in a ciphertext. The letter Q is so infrequent that it is likely to only have one substitution character.
+It is also almost only ever followed by the letter U. Based on U’s frequency, it is likely to have three substitution characters.
+Therefore, if there is a character in the cipher-text that is only ever followed by three other characters, it is reasonable to assume that it is a Q, and the three characters are the substitution characters for U.
+Every character has its own personality, and so has its own tells for where it should be in a ciphertext, and by the 1700s it was no longer secure to use simple homophonic ciphers.
+Every powerful country now had a Black Room, a place to professionally decrypt important information using techniques such as the ones we have discussed. The Vigenere cipher was finally accepted as the only secure was to communicate.

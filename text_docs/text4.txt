@@ -1,0 +1,7 @@
+For a long time, the cryptanalysts dominated the world of encryption. While there were many ciphers other than the ones shown in this program, all of the cryptographic techniques of the time had been decimated by Arabian decryption.
+Over time new approaches were developed, such as incorporating numbers, or foreign or fantastical characters into the written alphabet to confuse the attacker.
+Single letters could be used to represent whole words, or used to represent nothing at all but fodder to make any meaning as difficult as possible to find.
+However, it was only the creation of Le Chiffre Indechiffrable, or the Vigenere Cipher that stopped the cryptanalysts reign.
+
+In the 1500s Blaise de Vigenere developed his polyalphabetic substitution cipher.
+This is similar to a Caesar cipher, but rather than using alphabet, the Vigenere cipher uses multiple Caesar ciphers in a row, with increasing shift values.
